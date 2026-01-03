@@ -1,0 +1,125 @@
+.product-card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.product-card {
+  background: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 20px;
+  transition: all 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.product-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 15px;
+  gap: 10px;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #2c3e50;
+  margin: 0;
+  flex: 1;
+}
+
+.card-body {
+  flex: 1;
+  margin-bottom: 15px;
+}
+
+.card-price {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #27ae60;
+  margin-bottom: 10px;
+}
+
+.card-stock {
+  margin-bottom: 10px;
+}
+
+.card-description {
+  color: #666;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin-top: 10px;
+}
+
+.card-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: auto;
+  padding-top: 15px;
+  border-top: 1px solid #f0f0f0;
+}
+
+.card-actions .btn {
+  flex: 1;
+}
+
+.category-badge {
+  display: inline-block;
+  padding: 4px 12px;
+  background-color: #e8f4f8;
+  color: #3498db;
+  border-radius: 12px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.stock-badge {
+  display: inline-block;
+  padding: 4px 12px;
+  background-color: #d5f4e6;
+  color: #27ae60;
+  border-radius: 12px;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.stock-badge.low-stock {
+  background-color: #ffe5e5;
+  color: #e74c3c;
+}
+
+@media (max-width: 768px) {
+  .product-card-grid {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .product-card {
+    padding: 15px;
+  }
+
+  .card-title {
+    font-size: 1.1rem;
+  }
+
+  .card-price {
+    font-size: 1.3rem;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .product-card-grid {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  }
+}
+

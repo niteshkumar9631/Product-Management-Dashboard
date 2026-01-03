@@ -1,0 +1,42 @@
+.view-toggle {
+  display: flex;
+  gap: 8px;
+  background: white;
+  padding: 4px;
+  border-radius: 8px;
+  border: 2px solid #ddd;
+}
+
+.toggle-btn {
+  padding: 8px 12px;
+  background: transparent;
+  border: none;
+  border-radius: 6px;
+  color: #666;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+}
+
+.toggle-btn:hover {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.toggle-btn.active {
+  background-color: #3498db;
+  color: white;
+}
+
+.toggle-btn.active:hover {
+  background-color: #2980b9;
+}
+
+@media (max-width: 768px) {
+  .view-toggle {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
