@@ -2,6 +2,8 @@
 
 A responsive frontend-only web application built with React for managing and displaying products. This application demonstrates modern React patterns including component-based architecture, state management, form handling, search optimization, and responsive design.
 
+🌐 **Live Site:** [Product Management Dashboard](https://product-management-dashboard-sigma.vercel.app/)
+
 ## Features
 
 - **Dual View Modes**: Switch between List View (table format) and Card View (grid layout)
