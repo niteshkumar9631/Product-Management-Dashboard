@@ -43,6 +43,11 @@ Start the development server:
 npm run dev
 ```
 
+### Screenshot
+<img width="1876" height="897" alt="image" src="https://github.com/user-attachments/assets/7b1840ec-a792-4fad-8bd4-dd9ed3961285" />
+<img width="1880" height="765" alt="image" src="https://github.com/user-attachments/assets/0b830fd5-584a-40ac-9189-97758addeae3" />
+<img width="1877" height="888" alt="image" src="https://github.com/user-attachments/assets/b59c28b4-efea-473a-b677-52f536efa7ea" />
+
 The application will be available at `http://localhost:5173` (or the port shown in the terminal).
 
 ### Build
@@ -66,24 +71,8 @@ npm run preview
 ## Project Structure
 
 ```
-product-management-dashboard/
-├── src/
-│   ├── components/
-│   │   ├── ProductList.jsx      # Table view component
-│   │   ├── ProductCard.jsx      # Grid view component
-│   │   ├── ProductForm.jsx      # Add/Edit form component
-│   │   ├── SearchBar.jsx        # Search with debounce
-│   │   ├── ViewToggle.jsx       # View mode switcher
-│   │   ├── Pagination.jsx       # Pagination component
-│   │   └── *.css                # Component styles
-│   ├── App.jsx                  # Main application component
-│   ├── App.css                  # App styles
-│   ├── main.jsx                 # Application entry point
-│   └── index.css                # Global styles
-├── index.html                   # HTML template
-├── package.json                 # Dependencies and scripts
-├── vite.config.js              # Vite configuration
-└── README.md                    # This file
+<img width="281" height="740" alt="image" src="https://github.com/user-attachments/assets/eccf0a17-44a3-4396-bb48-8fdf53f8b05b" />
+
 ```
 
 ## Technologies Used
